@@ -1,19 +1,9 @@
-/*
- * Laboratorna robota No. 4. Tsyklichni algorytmy
- * Variant: K = 3
- * Zavdannia: 11, 18, 37, 74, 135, 226, 73, 242, 179, 170
- *
- * Usi 10 zavdan vykonuiutsia po cherzi, bez menu.
- * Bez masyviv ta inshykh skladnykh struktur danykh.
- * Kompiliatsiia: gcc lab4_K3.c -o lab4 -lm
- */
-
 #include <stdio.h>
 #include <math.h>
 
 int main(void)
 {
-    /* Zavdannia 11 */
+    /* 11 */
     printf("\n--- Zavdannia 11 ---\n");
     {
         int i;
@@ -24,7 +14,7 @@ int main(void)
         }
     }
 
-    /* Zavdannia 18 */
+    /* 18 */
     printf("\n--- Zavdannia 18 ---\n");
     {
         int i;
@@ -34,7 +24,7 @@ int main(void)
         }
     }
 
-    /* Zavdannia 37 */
+    /* 37 */
     printf("\n--- Zavdannia 37 ---\n");
     {
         int n, i;
@@ -49,7 +39,7 @@ int main(void)
         printf("P = %.8f\n", p);
     }
 
-    /* Zavdannia 74 */
+    /* 74 */
     printf("\n--- Zavdannia 74 ---\n");
     {
         int n, i;
@@ -67,7 +57,7 @@ int main(void)
         printf("S = %.8f\n", sum);
     }
 
-    /* Zavdannia 135 */
+    /* 135 */
     printf("\n--- Zavdannia 135 ---\n");
     {
         int a, b, c, count = 0;
@@ -85,7 +75,7 @@ int main(void)
         printf("Kil'kist variantiv: %d\n", count);
     }
 
-    /* Zavdannia 226 */
+    /* 226 */
     printf("\n--- Zavdannia 226 ---\n");
     {
         double a, b, h, x, y;
@@ -102,7 +92,7 @@ int main(void)
         }
     }
 
-    /* Zavdannia 73 */
+    /* 73 */
     printf("\n--- Zavdannia 73 ---\n");
     {
         int n, i;
@@ -120,7 +110,7 @@ int main(void)
         printf("S = %.8f\n", sum);
     }
 
-    /* Zavdannia 242 */
+    /* 242 */
     printf("\n--- Zavdannia 242 ---\n");
     {
         double a, b, h, x, y;
@@ -137,7 +127,7 @@ int main(void)
         }
     }
 
-    /* Zavdannia 179 */
+    /* 179 */
     printf("\n--- Zavdannia 179 ---\n");
     {
         int first, current, count = 1;
@@ -158,7 +148,7 @@ int main(void)
         printf("Na pochatku odnakovykh elementiv: %d\n", count);
     }
 
-    /* Zavdannia 170 */
+    /* 170 */
     printf("\n--- Zavdannia 170 ---\n");
     {
         double n, left, right, unused;
@@ -182,7 +172,6 @@ int main(void)
         printf("\nChyslo n lezhyt mizh elementamy:\n");
         printf("%d (%.3f) i %d (%.3f)\n", i, left, i + 1, right);
 
-        /* Dochytuiemo reshtu chysel, masyv ne vykorystovuiemo. */
         for (j = i + 2; j <= 15; j++) {
             scanf("%lf", &unused);
         }
